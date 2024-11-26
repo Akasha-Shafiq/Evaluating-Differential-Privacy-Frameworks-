@@ -15,12 +15,12 @@ The repository implements various experiments and analyses focused on central di
 In this work, we have proposed a framework with a set of matrices to evaluate and implement CDP without having detailed knowledge about Dp. 
 The work addresses various misconceptions and questions while implementing differential privacy such as:
 
-- [x] How to do sensitivity analysis
-- [x] Which noise mechanism to choose (Laplace or Gaussian)
-- [x] The behaviour of noise mechanism when used in a real-world setting
-- [x] The effect of privacy budget and accuracy using a different mechanism
-- [x] Set of matrices to implement a differential private framework (Threshold bounds, epsilon sensitivity index, Type errors, Relative Error, Absolute Differnce and Accuracy )
-- [x] How to select an epsilon for a particular use case with balancing privacy vs utility trade-off
+ *  How to do sensitivity analysis
+ *  Which noise mechanism to choose (Laplace or Gaussian)
+ *  The behaviour of noise mechanism when used in a real-world setting
+ *  The effect of privacy budget and accuracy using a different mechanism
+ *  Set of matrices to implement a differential private framework (Threshold bounds, epsilon sensitivity index, Type errors, Relative Error, Absolute Differnce and Accuracy )
+ *  How to select an epsilon for a particular use case with balancing privacy vs utility trade-off
 
 # Implementation
 The framework is an end-to-end framework designed to be used by all users without having expertise in differential privacy allowing the user to evaluate DP mechanism and how they can execute queries in order to publish statistics. The framework is implemented using Python and widely familiar libraries such as Pandas and NumPy to generate noise from Laplace and Gaussian distribution. The repository consists of the following scripts 
