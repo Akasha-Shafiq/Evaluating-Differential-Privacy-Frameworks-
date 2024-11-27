@@ -19,7 +19,7 @@ The work addresses various misconceptions and questions while implementing diffe
  *  Which noise mechanism to choose (Laplace or Gaussian)
  *  The behaviour of noise mechanism when used in a real-world setting
  *  The effect of privacy budget and accuracy using a different mechanism
- *  Set of matrices to implement a differential private framework (Threshold bounds, epsilon sensitivity index, Type errors, Relative Error, Absolute Differnce and Accuracy )
+ *  Set of matrices to implement a differential private framework (Threshold bounds, epsilon sensitivity index, Type errors, Relative Error, Absolute Difference and Accuracy )
  *  How to select an epsilon for a particular use case with balancing privacy vs utility trade-off
 
 # Implementation
@@ -31,4 +31,7 @@ The framework is an end-to-end framework designed to be used by all users withou
 
 ## How to Use
 
-
+* Upload your dataset 
+* Open the desired sensitivity analysis file to perform sensitivity analysis for the desired query. 
+* Open the desired noise adding file such as 'Noise-count'
+* Analyse the DP matrices and analyse it with your dataset
