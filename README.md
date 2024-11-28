@@ -34,4 +34,5 @@ The framework is an end-to-end framework designed to be used by all users withou
 * Upload your dataset 
 * Open the desired sensitivity analysis file to perform sensitivity analysis for the desired query. 
 * Open the desired noise adding file such as 'Noise-count'
+* Enter the sensitivity for the query and select the query
 * Analyse the DP matrices and analyse it with your dataset
